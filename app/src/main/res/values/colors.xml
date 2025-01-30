@@ -6,5 +6,7 @@
     <color name="purp1e_700">#8956E4</color>
     <color name="teal_200">#2C9AF2</color>
     <color name="teal_700">#50A5E9</color>
+    <color name="background">#BDA6EB</color>
+    <color name="Question_option">#DAE5ED</color>
 
 </resources>

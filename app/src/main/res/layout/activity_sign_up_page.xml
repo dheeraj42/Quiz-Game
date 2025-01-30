@@ -10,10 +10,10 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="200dp"
+        android:layout_width="215dp"
         android:layout_height="0dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginBottom="38dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="72dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextSignUpMail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/editTextSignUpMail"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="26dp"
+        android:layout_marginBottom="36dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
@@ -35,9 +35,11 @@
 
     <EditText
         android:id="@+id/editTextSignUpPassword"
-        android:layout_width="300dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="35dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="40dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="numberPassword"
@@ -48,14 +50,14 @@
 
     <Button
         android:id="@+id/buttonSignUpSign"
-        android:layout_width="193dp"
-        android:layout_height="59dp"
-        android:layout_marginBottom="126dp"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="71dp"
         android:text="Sign Up"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintStart_toStartOf="@+id/editTextSignUpPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextSignUpPassword" />
 
     <ProgressBar
@@ -63,9 +65,9 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="177dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignUpSign" />
 </androidx.constraintlayout.widget.ConstraintLayout>

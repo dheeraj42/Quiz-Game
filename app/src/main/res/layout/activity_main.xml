@@ -9,9 +9,10 @@
 
     <TextView
         android:id="@+id/textViewSignout"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="59dp"
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="149dp"
         android:background="@android:color/holo_red_dark"
         android:gravity="center"
         android:text="Sign Out"
@@ -19,32 +20,33 @@
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonStart" />
+        app:layout_constraintEnd_toEndOf="@+id/buttonStart"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="300dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="54dp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonStart"
+        android:layout_width="308dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginBottom="292dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSignout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/splash_img" />
 
     <Button
         android:id="@+id/buttonStart"
-        android:layout_width="292dp"
-        android:layout_height="57dp"
-        android:layout_marginBottom="76dp"
+        android:layout_width="310dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:text="Start Quiz"
-        app:layout_constraintBottom_toTopOf="@+id/textViewSignout"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
