@@ -88,6 +88,13 @@ public class Quiz_Page extends AppCompatActivity {
 
                 resetTimer();
                 game();
+
+                if(questionNumber == questionCount){
+                    sendScore();
+                    Intent i = new Intent(Quiz_Page.this,Score_Page.class);
+                    startActivity(i);
+                    finish();
+                }
             }
         });
 

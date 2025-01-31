@@ -9,13 +9,14 @@
 
     <ImageView
         android:id="@+id/imageViewSplash"
-        android:layout_width="300dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="94dp"
-        android:layout_marginBottom="115dp"
+        android:layout_width="236dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/textViewSplash"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/splash_img" />
@@ -24,12 +25,11 @@
         android:id="@+id/textViewSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="297dp"
+        android:layout_marginTop="100dp"
         android:text="Quiz Game"
         android:textColor="?attr/colorPrimaryDark"
         android:textSize="48sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewSplash" />
